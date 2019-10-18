@@ -10,7 +10,7 @@ def h_ascii(key, N):
         key : str
             the string being used to calculate hash value
         N : int
-            desired size of hash. should be prime number
+            desired size of hash
 
         Returns
         _______
@@ -52,7 +52,7 @@ def h_rolling(key, N, p=53, m=2**64):
         key : str
             the string being used to calculate hash value
         N : int
-            desired size of hash. should be prime number
+            desired size of hash
 
         Returns
         _______
@@ -99,7 +99,7 @@ def h_hasCode(key, N):
         key : str
             the string being used to calculate hash value
         N : int
-            desired size of hash. should be prime number
+            desired size of hash
 
         Returns
         _______
