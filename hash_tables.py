@@ -69,6 +69,8 @@ class ChainedHash:
         self.N = N
         self.T = [[] for i in range(N)]
         self.M = 0
+
+        # Add key tracking
         self.keys = []
 
     def add(self, key, value):
