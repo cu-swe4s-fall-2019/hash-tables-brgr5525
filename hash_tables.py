@@ -76,6 +76,7 @@ class ChainedHash:
         self.T[hash_slot].append((key, value))
         self.M += 1
 
+        # Add new keys to a list
         if self.search(key) == None:
             self.keys.append(key)
 
